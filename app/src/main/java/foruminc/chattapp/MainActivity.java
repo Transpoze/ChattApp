@@ -8,8 +8,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView textView;
+
+    public void buttonONClick(View Button){
+        textView = (TextView) (findViewById(R.id.textView));
+
+        textView.setText("alright");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
