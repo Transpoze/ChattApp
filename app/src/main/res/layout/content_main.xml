@@ -13,22 +13,21 @@
     tools:context="foruminc.chattapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
+        android:text="Lars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/button2"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="55dp"
-        android:layout_marginStart="55dp" />
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
 
     <Button
-        android:text="Button"
+        android:text="Jonsson"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
